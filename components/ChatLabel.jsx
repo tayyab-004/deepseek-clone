@@ -11,7 +11,6 @@ const ChatLabel = ({ openMenu, setOpenMenu, id, name }) => {
   const selectChat = () => {
     const chatData = chats.find((chat) => chat._id === id);
     setSelectedChat(chatData);
-    console.log(chatData);
   };
 
   const renameHandler = async () => {
