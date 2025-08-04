@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  baseURL: "https://api.deepseek.com",
+  baseURL: "https://openrouter.ai/api/v1/chat/completions",
   apiKey: process.env.DEEPSEEK_API_KEY,
 });
 
